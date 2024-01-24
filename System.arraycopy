@@ -1,0 +1,2 @@
+String[branches.get(currentBranch).length + 1];
+        System.arraycopy(branches.get(currentBranch), 0, updatedCommits, 0, branches.get(currentBranch).length);
